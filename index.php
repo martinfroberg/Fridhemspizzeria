@@ -31,11 +31,11 @@ $connection = db_connect(); ?>
 
   <nav>
        <ul>
-        <li><a href="#">Meny</a></li>
-        <li><a href="#">Evenemang</a></li>
-        <li><a href="#">Galleri</a></li>
-        <li><a href="#">Fridhemsspelet</a></li>
-        <li><a href="#">Om oss</a></li>
+        <li><div><a href="#">Meny</a></div></li>
+        <li><div><a href="#">Evenemang</a></div></li>
+        <li><div><a href="#">Galleri</a></div></li>
+        <li><div><a href="#">Fridhemsspelet</a></div></li>
+        <li><div><a href="#">Om oss</a></div></li>
       </ul>
   </nav>
 
@@ -46,9 +46,9 @@ $connection = db_connect(); ?>
   </section>
   <footer>
       <article>
-        <h1>Fridhemsgatan 4, Karlshamn</h1>
-        <h3>0454-10304</h3>
-        <h2>© 2017</h2>
+        <p>Fridhemsgatan 4, Karlshamn
+        0454-10304
+        © 2017</p>
       </article>
   </footer>
 </body>
