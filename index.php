@@ -21,6 +21,26 @@ $connection = db_connect(); ?>
   <![endif]-->
 </head>
 <body>
-  
+  <header>
+    <h1>Fridhemspizzeria</h1>
+    <div class="h-img-wrap">
+    </div>
+    <nav>
+      Meny
+      Evenemang
+      Galleri
+      Fidhemsspelet
+      Om Oss
+    </nav>
+  </header>
+  <!-- Body -->
+  <section class="news-feed-wrap">
+    Nyhetsflöde
+  </section>
+  <footer>
+    <div>
+      Footer
+    </div>
+  </footer>
 </body>
 </html>
