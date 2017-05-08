@@ -1,6 +1,6 @@
 body {
   background-color: #424242;
-  color: darkgray;
+  color: black;
   background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
   background-repeat: repeat;
 
@@ -10,11 +10,13 @@ body {
 
 header {
   margin-top: 0.3em;
+  margin-bottom: 1em;
 }
 
 header > h3, h1 {
   text-align: center;
   font-family: "Times New Roman", "Times", "serif";
+  color: darkgray;
 }
 
 header > h3 {
@@ -53,6 +55,7 @@ header > nav li div {
 }
 
 header > nav li div a {
+  padding: 0.6em;
   font-size: 1.3em;
   color: black;
   text-shadow: 0.07em 0.12em darkred;
@@ -71,9 +74,12 @@ section.news-feed-wrap {
   margin: auto;
   width: 70%;
   min-height: 20em;
-  border: 0.1rem solid darkgray;
-  background-color: white;
+  background-color: lightgray;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  box-shadow: 0.3em 0.3em darkred;
 }
+
 footer {
   margin-top: 5em;
 }
