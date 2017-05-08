@@ -28,6 +28,7 @@ header > h1 {
   font-size: 4em;
 }
 
+
 .h-img-wrap {
   background-image: url("https://deepdisheats.files.wordpress.com/2010/12/dufonos.jpg");
   background-size: cover;
@@ -36,7 +37,7 @@ header > h1 {
 }
 
 header > nav {
-  background-color: #c10000;
+  background-color: #d60c1d;
   height: 3.5em;
 }
 
@@ -54,9 +55,19 @@ header > nav li div {
   display: block;
 }
 
+
 header > nav li div a {
   padding: 0.6em;
+
+}
+
+header > nav li a {
+
+
   font-size: 1.3em;
+
+  font-size: 2.5vh;
+
   color: black;
   text-shadow: 0.07em 0.12em darkred;
   text-decoration: none;
@@ -81,13 +92,25 @@ section.news-feed-wrap {
 }
 
 footer {
-  margin-top: 5em;
+
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center
+
 }
+
 
 footer > article p{
   color: darkgray;
   text-align: center;
 }
+
+footer >  article {
+    text-align: center;
+
+
+}
+
 
 @media (max-width: 500px) {
   body {
@@ -98,3 +121,21 @@ footer > article p{
     width: 90%;
   }
 }
+
+header > .onlinepizza {
+    
+    position: absolute;
+    z-index: 5 ;
+    width:auto;
+    height: auto;
+    max-height: 50%;
+    right: 0;
+}
+
+footer > article p{
+    font-size: 2.2vh;
+
+
+}
+
+

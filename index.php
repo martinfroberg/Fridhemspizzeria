@@ -20,12 +20,16 @@ $connection = db_connect(); ?>
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <![endif]-->
+  <link rel='shortcut icon' type='image/x-icon href='images/favicon.ico' />
 </head>
 <body>
 
   <header>
     <h3>PIZZERIA</h3>
     <h1>FRIDHEM</h1>
+    <div class=onlinepizza><a target="_blank" href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu">
+    <img src="images/onlinepizza.jpeg" title="Beställ mat här" alt="onlinepizza"></a>
+    </div>
     <div class="h-img-wrap">
     </div>
 
@@ -55,10 +59,12 @@ $connection = db_connect(); ?>
     klas-henriks-äventyr och innehåller Kebab, mozarella och bostongurka. Välkommna!<br><br>Bager Sensodyn</p><br><hr>
   </section>
   <footer>
-      <article>
-        <p>Fridhemsgatan 4, Karlshamn
-        0454-10304
-        © 2017</p>
+
+      <article class="footerarticle">
+        <p>Fridhemsgatan 4, Karlshamn</p>
+        <p>0454-10304</p>
+        <h2>© 2017</h2>
+
       </article>
   </footer>
 </body>
