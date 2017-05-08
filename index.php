@@ -22,7 +22,8 @@ $connection = db_connect(); ?>
 </head>
 <body>
   <header>
-    <h1>Fridhemspizzeria</h1>
+    <h3>PIZZERIA</h3>
+    <h1>FRIDHEM</h1>
     <div class="h-img-wrap">
     </div>
     <nav>
