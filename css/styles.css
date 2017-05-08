@@ -1,9 +1,10 @@
-
 body {
   background-color: #424242;
   color: darkgray;
   background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
   background-repeat: repeat;
+
+  font-size: 1rem;
 }
 
 header {
@@ -41,18 +42,18 @@ header > nav {
 }
 
 
-ul {
+header > nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
-li {
+header > nav li {
     display: inline;
 
 }
-li a { color: #FAFAFA;
+header > nav li a { color: #FAFAFA;
        text-decoration: none;
        display: inline-block;
 
@@ -66,15 +67,9 @@ section.news-feed-wrap {
   background-color: white;
 }
 footer {
-  margin-top: 0.5rem;
-  border: 0.1rem solid darkgray;
-  height: 7vw;
+  margin-top: 5rem;
 }
 
-footer > div {
-
-}
-footer > div > article {
+footer > div > article h1, h2, h3{
     text-align: center;
-    margin-top: 1.25vw;
 }

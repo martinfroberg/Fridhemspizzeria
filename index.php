@@ -46,17 +46,10 @@ $connection = db_connect(); ?>
   </section>
   <footer>
       <article>
-
-        <h1>Fridhemsgatan 4, Karlshamn</h3>
-        <h1>0454-10304</h3>
-
-        <h1>© 2017</h2>
-
+        <h1>Fridhemsgatan 4, Karlshamn</h1>
+        <h3>0454-10304</h3>
+        <h2>© 2017</h2>
       </article>
   </footer>
-
-
-
-
 </body>
 </html>
