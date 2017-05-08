@@ -4,7 +4,7 @@ body {
   background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
   background-repeat: repeat;
 
-  font-size: 1rem;
+  font-size: 1.5vw;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -18,24 +18,24 @@ header > h3, h1 {
 }
 
 header > h3 {
-  letter-spacing: 1rem;
+  letter-spacing: 1em;
 }
 
 header > h1 {
-  font-size: 4rem;
-  letter-spacing: 0.2rem;
-  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 4em;
 }
 
 .h-img-wrap {
   background-image: url("https://deepdisheats.files.wordpress.com/2010/12/dufonos.jpg");
   background-size: cover;
   width: 100%;
-  height: 30vw;
+  height: 22em;
 }
 
 header > nav {
   background-color: #c10000;
+  height: 3.5em;
 }
 
 header > nav > ul {
@@ -52,29 +52,39 @@ header > nav li div {
 }
 
 header > nav li a {
-  font-size: 1.2rem;
+  font-size: 1.3em;
   color: black;
-  text-shadow: 0.07rem 0.12rem darkred;
+  text-shadow: 0.07em 0.12em darkred;
   text-decoration: none;
   font-weight: bold;
 }
 
 header > nav li div:hover {
   background: darkred;
-  border-radius: 0.2rem;
+  border-radius: 0.2em;
 }
 
 section.news-feed-wrap {
   margin: auto;
   width: 70%;
-  min-height: 30vw;
+  min-height: 20em;
   border: 0.1rem solid darkgray;
   background-color: white;
 }
 footer {
-  margin-top: 5rem;
+  margin-top: 5em;
 }
 
 footer > div > article p{
     text-align: center;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 2.5vw;
+  }
+
+  section.news-feed-wrap {
+    width: 90%;
+  }
 }
