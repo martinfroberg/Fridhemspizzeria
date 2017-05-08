@@ -27,10 +27,8 @@ $connection = db_connect(); ?>
   <header>
     <h3>PIZZERIA</h3>
     <h1>FRIDHEM</h1>
-    <div class=onlinepizza><a target="_blank" href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu">
-    <img src="images/onlinepizza.jpeg" title="Beställ mat här" alt="onlinepizza"></a>
-    </div>
     <div class="h-img-wrap">
+      <a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu"><img src="images/onlinepizza.jpeg" title="Beställ från Pizzeria Fridhem" alt=""></a>
     </div>
 
   <nav>

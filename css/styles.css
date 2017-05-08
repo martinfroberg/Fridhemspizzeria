@@ -4,7 +4,7 @@ body {
   background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
   background-repeat: repeat;
 
-  font-size: 1.2vw;
+  font-size: 1vw;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -28,20 +28,18 @@ header > h1 {
   font-size: 4em;
 }
 
-header > .onlinepizza {
-    position: absolute;
-    z-index: 5;
-    width:auto;
-    height: auto;
-    max-height: 50%;
-    right: 0;
-}
-
-.h-img-wrap {
+header > .h-img-wrap {
   background-image: url("https://deepdisheats.files.wordpress.com/2010/12/dufonos.jpg");
   background-size: cover;
   width: 100%;
   height: 22em;
+}
+
+header > .h-img-wrap a img {
+  float: right;
+  right: 0;
+  width: 20em;
+  height: auto;
 }
 
 header > nav {
