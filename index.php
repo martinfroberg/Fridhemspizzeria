@@ -2,10 +2,11 @@
 $connection = db_connect(); ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="utf-8"/>
-  <title></title>
+  <title>Pizzeria Fridhem</title>
+
   <meta name="description" content=""/>
   <meta name="author" content=""/>
   <!-- mobile viewport optimisation -->
@@ -21,27 +22,41 @@ $connection = db_connect(); ?>
   <![endif]-->
 </head>
 <body>
+
   <header>
     <h3>PIZZERIA</h3>
     <h1>FRIDHEM</h1>
     <div class="h-img-wrap">
     </div>
-    <nav>
-      Meny
-      Evenemang
-      Galleri
-      Fidhemsspelet
-      Om Oss
-    </nav>
+
+  <nav>
+       <ul>
+        <li><a href="#">Meny</a></li>
+        <li><a href="#">Evenemang</a></li>
+        <li><a href="#">Galleri</a></li>
+        <li><a href="#">Fridhemsspelet</a></li>
+        <li><a href="#">Om oss</a></li>
+      </ul>
+  </nav>
+
   </header>
   <!-- Body -->
   <section class="news-feed-wrap">
     Nyhetsflöde
   </section>
   <footer>
-    <div>
-      Footer
-    </div>
+      <article>
+
+        <h1>Fridhemsgatan 4, Karlshamn</h3>
+        <h1>0454-10304</h3>
+
+        <h1>© 2017</h2>
+
+      </article>
   </footer>
+
+
+
+
 </body>
 </html>
