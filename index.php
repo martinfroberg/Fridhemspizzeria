@@ -20,7 +20,7 @@ $connection = db_connect(); ?>
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <![endif]-->
-  <link rel='shortcut icon' type='image/x-icon href='images/favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
 </head>
 <body>
 
