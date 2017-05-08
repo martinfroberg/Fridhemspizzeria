@@ -84,8 +84,9 @@ footer {
   margin-top: 5em;
 }
 
-footer > div > article p{
-    text-align: center;
+footer > article p{
+  color: darkgray;
+  text-align: center;
 }
 
 @media (max-width: 500px) {
