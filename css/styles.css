@@ -1,3 +1,6 @@
+/* onlinepizza röd: d60c1d
+vit text = gainsboro */
+
 body {
   background-color: #424242;
   color: black;
@@ -13,17 +16,22 @@ header {
   margin-bottom: 1em;
 }
 
-header > h3, h1 {
-  text-align: center;
-  font-family: "Times New Roman", "Times", "serif";
-  color: darkgray;
+header > a {
+  text-decoration: none;
 }
 
-header > h3 {
+header > a h3, h1 {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Times New Roman", "Times", "serif";
+  color: gainsboro;
+}
+
+header > a h3 {
   letter-spacing: 1em;
 }
 
-header > h1 {
+header > a h1 {
   letter-spacing: 0.1em;
   font-size: 4em;
 }
@@ -33,11 +41,12 @@ header > .h-img-wrap {
   background-size: cover;
   width: 100%;
   height: 22em;
+  border-radius: 1em 1em 0 0;
 }
 
 header > .h-img-wrap a img {
+  border-radius: 0 1em 0 0;
   float: right;
-  right: 0;
   width: 20em;
   height: auto;
 }
@@ -45,6 +54,7 @@ header > .h-img-wrap a img {
 header > nav {
   background-color: #d60c1d;
   height: 3.5em;
+  border-radius: 0 0 1em 1em;
 }
 
 header > nav > ul {
@@ -69,7 +79,7 @@ header > nav li div a {
 
 header > nav li a {
   font-size: 1.3em;
-  color: black;
+  color: gainsboro;
   text-shadow: 0.07em 0.12em darkred;
   text-decoration: none;
   font-weight: bold;
@@ -86,26 +96,27 @@ section.news-feed-wrap {
   margin: auto;
   width: 70%;
   min-height: 20em;
-  background-color: lightgray;
-  border-radius: 0.3em;
+  /*background-color: rgba(220,220,220,0.75);*/
+  border-radius: 0.5em;
   padding: 0.5em;
-  box-shadow: 0.3em 0.3em darkred;
+  box-shadow: 0.18em 0.18em darkgray;
+
+  border: 0.1em solid gainsboro;
+}
+
+section.news-feed-wrap h3,p {
+  color: gainsboro;
 }
 
 footer {
+  background-color: #d60c1d;
   margin-top: 5em;
-  margin-bottom: 2em;
-  text-align: center
+  border-radius: 1em 1em 0 0;
 }
 
-
-footer > article p{
-  color: darkgray;
+footer > article p, h2{
+  color: gainsboro;
   text-align: center;
-}
-
-footer >  article {
-    text-align: center;
 }
 
 @media (max-width: 500px) {

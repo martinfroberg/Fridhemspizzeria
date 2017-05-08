@@ -25,8 +25,10 @@ $connection = db_connect(); ?>
 <body>
 
   <header>
-    <h3>PIZZERIA</h3>
-    <h1>FRIDHEM</h1>
+    <a href="index.php">
+      <h3>PIZZERIA</h3>
+      <h1>FRIDHEM</h1>
+    </a>
     <div class="h-img-wrap">
       <a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu" target="_blank"><img src="images/onlinepizza.jpeg" title="Beställ från Pizzeria Fridhem" alt=""></a>
     </div>
@@ -37,6 +39,7 @@ $connection = db_connect(); ?>
         <li><div><a href="#">Evenemang</a></div></li>
         <li><div><a href="#">Galleri</a></div></li>
         <li><div><a href="#">Fridhemsspelet</a></div></li>
+        <li><div><a href="#">Beställa</a></div></li>
         <li><div><a href="#">Om oss</a></div></li>
       </ul>
   </nav>
@@ -57,7 +60,7 @@ $connection = db_connect(); ?>
     klas-henriks-äventyr och innehåller Kebab, mozarella och bostongurka. Välkommna!<br><br>Bager Sensodyn</p><br><hr>
 
     <h3>Pizzeria Fridhem stängt 03/01-17 för renovering.</h3>
-    <p>Tyvär måste vi ha stängt under 03/01-17 för lite extra renovering. Vi kommer vara öppna dagen efter, Välkommna då!<br><br>Bager Sirap</p><br><hr>
+    <p>Tyvär måste vi ha stängt under 03/01-17 för lite extra renovering. Vi kommer vara öppna dagen efter, Välkommna då!<br><br>Bager Sirap</p><br>
   </section>
   <footer>
 
@@ -65,7 +68,6 @@ $connection = db_connect(); ?>
         <p>Fridhemsgatan 4, Karlshamn</p>
         <p>0454-10304</p>
         <h2>© 2017</h2>
-
       </article>
   </footer>
 </body>
