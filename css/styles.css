@@ -53,7 +53,7 @@ header > .h-img-wrap a img {
 
 header > nav {
   background-color: #d60c1d;
-  height: 3.5em;
+  min-height: 3.5em;
   border-radius: 0 0 1em 1em;
 }
 
