@@ -57,6 +57,9 @@ $connection = db_connect(); ?>
     <h3>Ny pizza har kommit till Pizzeria Fridhem!</h3>
     <p>Från och med idag(05/08-17) finns det en ny pizza att pröva för er pizza fantaster. Piza nr 58 kallas
     klas-henriks-äventyr och innehåller Kebab, mozarella och bostongurka. Välkommna!<br><br>Bager Sensodyn</p><br><hr>
+
+    <h3>Pizzeria Fridhem stängt 03/01-17 för renovering.</h3>
+    <p>Tyvär måste vi ha stängt under 03/01-17 för lite extra renovering. Vi kommer vara öppna dagen efter, Välkommna då!<br><br>Bager Sirap</p><br><hr>
   </section>
   <footer>
 
