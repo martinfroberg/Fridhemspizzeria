@@ -47,20 +47,22 @@ $connection = db_connect(); ?>
   </header>
   <!-- Body -->
   <section class="news-feed-wrap">
+    <hr class="hr-l">
+    <br>
     <h3>Hejsan alla pizza älskare!</h3>
-    <p>Pizzeria fridhem kommer från och med 05/09-24 att även sälja vitvaroprodukter!
-    Hjärtligt välkommna är alla som är intresserade.<br><br>Bager Senaps</p><br><hr>
+    <p>Torsdagen den 18/08-19 kommer vi lunchrabatter! 12.00 - 15.00 kommer vi att sälja valfri pizza ifrån menyn med 20% rabatt.
+    Hjärtligt välkommna till Pizzeria Fridhem.<br><br>Bager Sersap</p><br><hr class="hr-s"><br>
 
-    <h3>Förra veckans bagerstreet slutade i kaos!</h3>
-    <p>Vi får be om ursäkt till närliggande grannar om vi på pizzerian har varit högljudda under senaste
-    bager street eventet. Alla är välkommna till nästa bager street den 02/11-17.<br><br>Bager Snaps</p><br><hr>
+    <h3>Bager street imorgon 10/05-19!</h3>
+    <p>Livemusik, god mat, kall öl. Bager street börjar 22.00 och håller på till 02.00. Välkommna!<br><br>Bager Sersap</p><br><hr class="hr-s"><br>
 
     <h3>Ny pizza har kommit till Pizzeria Fridhem!</h3>
     <p>Från och med idag(05/08-17) finns det en ny pizza att pröva för er pizza fantaster. Piza nr 58 kallas
-    klas-henriks-äventyr och innehåller Kebab, mozarella och bostongurka. Välkommna!<br><br>Bager Sensodyn</p><br><hr>
+    kött-tornadon och innehåller Kebab, kyckling, köttfärsås, champinjoner, lök, färska tomater med valfri sås. Välkommna!<br><br>Bager Sersap</p><br><hr class="hr-s"><br>
 
     <h3>Pizzeria Fridhem stängt 03/01-17 för renovering.</h3>
-    <p>Tyvär måste vi ha stängt under 03/01-17 för lite extra renovering. Vi kommer vara öppna dagen efter, Välkommna då!<br><br>Bager Sirap</p><br>
+    <p>Tyvär måste vi ha stängt under 03/01-17 för lite extra renovering. Vi kommer vara öppna dagen efter, Välkommna då!<br><br>Bager Sersap</p><br>
+    <hr class="hr-l">
   </section>
   <footer>
 
