@@ -1,5 +1,6 @@
-<?php require_once 'core/database/connect.php';
-$connection = db_connect(); ?>
+<?php
+include('core/database/connection.php');
+$db = Database::getConnection(); ?>
 
 <!doctype html>
 <html lang="sv">
