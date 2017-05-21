@@ -45,6 +45,15 @@ class Database {
       `session_hash` TEXT ,
       PRIMARY KEY (`id`))");
 
+      mysqli_query($this->connection,
+      "CREATE TABLE `menu`
+      ( `id` INT NOT NULL AUTO_INCREMENT ,
+        `name` TEXT NOT NULL ,
+        `ingredients` TEXT ,
+        `category` TEXT NOT NULL ,
+        `price` INT ,
+        PRIMARY KEY (`id`))");
+
       //Get db entries
       require_once 'core/db_data.php';
       insert_db_data($this->connection);
