@@ -26,7 +26,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
       header('Location: ../../admin.php?correct');
     } else {
       //Incorrect password
-      header('Location: ../../admin.php?incorrect');
+      header('Location: ../../admin.php?incorrectP');
     }
   }
   $stmt->close();

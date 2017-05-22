@@ -106,7 +106,8 @@ function insert_db_data($con){
 }
 function insert_admin($con, $username, $password){
   $stmt = $con->prepare("INSERT INTO users (username, password_hash) VALUES (?,?)");
-  $stmt->bind_param("ss", $username, $password);
+  $stmt->bind_param("ss", $username, $p);
+  $p = password_hash($password, PASSWORD_BCRYPT);
   $stmt->execute();
   $stmt->close();
 }
