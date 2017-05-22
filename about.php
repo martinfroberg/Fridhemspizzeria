@@ -6,7 +6,7 @@ $db = Database::getConnection(); ?>
 <html lang="sv">
 <head>
   <meta charset="utf-8"/>
-  <title>Pizzeria Fridhem</title>
+  <title>Pizzeria Fridhem - Meny</title>
 
   <meta name="description" content=""/>
   <meta name="author" content=""/>
@@ -44,34 +44,16 @@ $db = Database::getConnection(); ?>
         <li><div><a href="#">Galleri</a></div></li>
         <li><div><a href="#">Fridhemsspelet</a></div></li>
         <li><div><a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu" target="_blank">Beställa</a></div></li>
-        <li><div><a href="about.php">Om oss</a></div></li>
+        <li><div><a href="#">Om oss</a></div></li>
       </ul>
   </nav>
 
   </header>
   <!-- Body -->
-  <section class="news-feed-wrap">
-    <hr class="hr-l">
-    <br>
-    <h3>Hejsan alla pizza älskare!</h3>
 
-    <p>Torsdagen den 18/08-19 kommer vi ha lunchrabatter! 12.00 - 15.00 kommer vi att sälja valfri pizza ifrån menyn med 20% rabatt.
-       Hjärtligt välkommna till Pizzeria Fridhem.<br><br>Bager Sersap</p><br><hr class="hr-s"><br>
-
-    <h3>Bager street imorgon 10/05-19!</h3>
-    <p>Livemusik, god mat, kall öl. Bager street börjar 22.00 och håller på till 02.00. Välkommna!<br><br>Bager Sersap</p><br><hr class="hr-s"><br>
-
-    <h3>Ny pizza har kommit till Pizzeria Fridhem!</h3>
-    <p>Från och med idag(05/08-17) finns det en ny pizza att pröva för er pizza fantaster. Pizza nr 58 kallas
-    kött-tornadon och innehåller Kebab, kyckling, köttfärsås, champinjoner, lök, färska tomater med valfri sås. Välkommna!<br><br>Bager Sersap</p><br><hr class="hr-s"><br>
-
-    <h3>Pizzeria Fridhem stängt 03/01-17 för renovering.</h3>
-    <p>Tyvär måste vi ha stängt under hela dagen på grund av renovering. Vi kommer vara öppna dagen efter, Välkommna då!<br><br>Bager Sersap</p><br>
-    <hr class="hr-l">
-  </section>
   <footer>
-
-        <article class="footeraddress">
+     
+       <article class="footeraddress">
             
         <h2>Pizzeria Fridhem</h2>    
         <p>Fridhemsgatan 4, 374 41 Karlshamn</p>
@@ -82,6 +64,14 @@ $db = Database::getConnection(); ?>
          <article class="footercopyright">
              <p>© Pizzeria Fridhem<p>
          </article>
+         
+        <div id="map"></div>
+      
+      
+        <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-hvHiQl9w-Bqs_EdXHjDSHVbKm9nLGRg&callback=initMap">
+        </script>
+      
         
   </footer>
 </body>
