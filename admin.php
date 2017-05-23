@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <title>Pizzeria Fridhem</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- mobile viewport optimisation -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/base.css" type="text/css" />
+    <link rel="stylesheet" href="css/login.css" type="text/css" />
+    <!--[if lte IE 7]>
+  <link rel="stylesheet" href="css/iehacks.css" type="text/css"/>
+  <![endif]-->
+    <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
     <title></title>
-  </head>
-  <body>
-    <?php
+</head>
+
+<body>
+    <div class="mainback"><h1>Fridhems Pizzeria Login</h1></div>
+           <!---- Admin Login--> <?php
     session_start();
     if (isset($_SESSION['user_id'])){
       //Logged on
@@ -17,10 +35,12 @@
       //Logged off
       echo '
       <form action="core/admin/login.php" method="post">
-        <input placeholder="Username" type="text" name="username" required>
+        <div class="holder"><input placeholder="Username" type="text" name="username" required>
         <input placeholder="Password" type="text" name="password" required>
-        <button type="submit">Submit</button>
+        <button class="btn" type="submit">Login</button></div>
       </form>';
     } ?>
-  </body>
+      
+</body>
+
 </html>
