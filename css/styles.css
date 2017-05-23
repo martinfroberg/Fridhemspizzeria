@@ -1,9 +1,13 @@
 /* onlinepizza röd: d60c1d
 vit text = gainsboro */
 
+html {
+  min-height: 100%;
+}
+
 body {
   background-color: #424242;
-  color: black;
+  color: gainsboro;
   background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
   background-repeat: repeat;
 
@@ -94,7 +98,7 @@ header > nav li div:hover {
 
 section.news-feed-wrap {
   margin: auto;
-  width: 70%;
+  width: 70em;
   min-height: 20em;
   border-radius: 0.5em;
   padding: 0.5em;
@@ -118,9 +122,41 @@ section.news-feed-wrap h3,p {
   color: gainsboro;
 }
 
+.menu-container {
+  margin: auto;
+  width: 70%;
+}
+
+.menu-box-container {
+  display: table-row;
+  margin: 0;
+}
+
+section.text-left, section.img-left {
+  margin-bottom: 2.5em;
+  text-align: left;
+  float: left;
+}
+
+section.text-right, section.img-right {
+  margin-bottom: 2.5em;
+  text-align: right;
+  float: right;
+}
+
+section.img-left img, section.img-right img{
+  width: 24em;
+  height: auto;
+}
+
+.menu-container article {
+  margin-bottom: 0.3em;
+  padding: 0;
+}
+
 footer {
-  background-color: #d60c1d;
   margin-top: 5em;
+  background-color: #d60c1d;
   border-radius: 1em 1em 0 0;
   padding-top: 1em;
 }
@@ -136,6 +172,15 @@ footer > article p, h2{
   }
 
   section.news-feed-wrap {
-    width: 90%;
+    width: 95%;
+  }
+
+  div.menu-container {
+    width: 95%;
+  }
+
+  .menu-container .img-left img, .menu-container .img-right img{
+    height: auto;
+    width: 15em;
   }
 }
