@@ -4,8 +4,11 @@ vit text = gainsboro */
 body {
   background-color: #424242;
   color: black;
-  background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
+  /*background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");*/
+  background-image: url('../images/background1.jpeg');
   background-repeat: repeat;
+  
+  
 
   font-size: 1vw;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -178,17 +181,53 @@ section.meny-wrap h3 {
 .footeraddress{
  width: 100vw;
  height: 8vh;
+ color: gainsboro;
 }
 .footercopyright{
 height: 4vh;
 width: 100vw;
+color: gainsboro;
 }
 
 
 #map {
   z-index: 10;
-  width: 20vw;
+  width: 37vw;
   height: 28vh;
   margin: 0 auto;
+  margin-top: 2vh;
+  border-radius: 2.5%;
   
+}
+
+body > .ombager{
+   margin: 0 auto;
+   width: 99.5vw;
+   text-align: center;
+   color: gainsboro;
+   
+}
+body > .ombager > .bager1 {
+  width: 35vh;
+  border-radius: 5%;
+  margin: 0 auto;
+  
+}
+
+body > .pizzeriafridhem {
+   width: 60vw;
+   margin: 0 auto;
+   margin-top: 2vh;
+}
+
+body > .pizzeriafridhem h2 {
+  margin-top: 4vh;
+  margin-bottom: 1.5vh;
+  color: gainsboro;
+}
+
+body > .pizzeriafridhem2 {
+  text-align: center;
+  color: gainsboro;
+  margin-top: 1vh;
 }
