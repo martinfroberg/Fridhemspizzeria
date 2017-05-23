@@ -1,0 +1,54 @@
+body{
+   background-color: #424242;
+    color: black;
+    background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");
+    background-repeat: repeat;
+    font-size: 1vw;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 15%;
+transition: border .5s;
+    margin: auto;
+    margin-top: 20%;
+    border-color: black;
+    margin-left: 
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+button {
+    text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+    border-color: black;
+}
+button:hover {
+    border: 2px solid #3498DB;
+box-shadow: none;
+}
+.holder{
+    text-align: center;
+}
+.mainback{
+    text-align: center;
+}
+.mainback > h1 {
+    color: white;
+    padding-top: 3%;
+}

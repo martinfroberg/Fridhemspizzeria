@@ -23,7 +23,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
       session_start();
       $_SESSION['user_id'] = $user_id;
 
-      header('Location: ../../admin.php?correct');
+      header('Location: ../../adminedit.php?correct');
     } else {
       //Incorrect password
       header('Location: ../../admin.php?incorrectP');
