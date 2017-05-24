@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/base.css" type="text/css" />
-    <link rel="stylesheet" href="css/login.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <!--[if lte IE 7]>
   <link rel="stylesheet" href="css/iehacks.css" type="text/css"/>
   <![endif]-->
@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="mainback"><h1>Fridhems Pizzeria Login</h1></div>
+    <div class="loginheader"><h1>Fridhems Pizzeria Login</h1></div>
            <!---- Admin Login--> <?php
     session_start();
     if (isset($_SESSION['user_id'])){
@@ -35,8 +35,8 @@
       //Logged off
       echo '
       <form action="core/admin/login.php" method="post">
-        <div class="holder"><input placeholder="Username" type="text" name="username" required>
-        <input placeholder="Password" type="text" name="password" required>
+        <div class="holder"><input class="boxlog" placeholder="Username" type="text" name="username" required>
+        <input class="boxlog" placeholder="Password" type="text" name="password" required>
         <button class="btn" type="submit">Login</button></div>
       </form>';
     } ?>
