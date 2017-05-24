@@ -21,6 +21,7 @@ $con = Database::getConnection(); ?>
   <!--[if lt IE 9]>
   <script src="js/html5shiv.js"></script>
   <![endif]-->
+  <script type="text/javascript" src="js/main.js"></script>
   <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
 </head>
 <body>
@@ -37,10 +38,10 @@ $con = Database::getConnection(); ?>
       <ul>
         <li><div><a href="menu.php">Meny</a></div></li>
         <li><div><a href="#">Evenemang</a></div></li>
-        <li><div><a href="#">Galleri</a></div></li>
+        <li><div><a href="gallery.php">Galleri</a></div></li>
         <li><div><a href="#">Fridhemsspelet</a></div></li>
         <li><div><a href="#">Beställa</a></div></li>
-        <li><div><a href="#">Om oss</a></div></li>
+        <li><div><a href="about.php">Om oss</a></div></li>
       </ul>
     </nav>
   </header>
