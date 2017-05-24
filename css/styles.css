@@ -166,8 +166,7 @@ hr.hr-s {
     margin-bottom: 0.5em;
 }
 
-section.news-feed-wrap h3,
-p {
+section.news-feed-wrap h3 p {
     color: gainsboro;
 }
 
@@ -177,12 +176,13 @@ p {
 }
 
 .menu-container h1 {
-
+  font-weight: bolder;
 }
 
 .menu-container p {
   margin-bottom: 1em;
   text-align: center;
+  font-style: italic;
 }
 
 .menu-box-container {
@@ -211,7 +211,7 @@ section.text-left, section.text-right {
 }
 
 section.text-right, section.img-right {
-  margin-left: 14em;
+  margin-left: 24.8em;
 }
 
 section.text-left p{
