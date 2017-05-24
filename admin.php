@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -23,6 +22,7 @@
 
 <body>
     <div class="loginheader"><h1>Fridhems Pizzeria Login</h1></div>
+
            <!---- Admin Login--> <?php
     session_start();
     if (isset($_SESSION['user_id'])){
@@ -40,7 +40,6 @@
         <button class="btn" type="submit">Login</button></div>
       </form>';
     } ?>
-      
-</body>
 
+    </body>
 </html>
