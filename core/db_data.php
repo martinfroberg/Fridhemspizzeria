@@ -68,7 +68,11 @@ function insert_db_data($con){
   insert_menu_item($con, "Dilan", "Fläskfilé, Köttfärs, Champinjoner, Lök, Färska tomater, Färsk paprika", "Pizza", "80");
   //Barnpizza 5kr billigare?
 
-  //Kyckling meny?
+  //Kebab
+  insert_menu_item($con, "Kebab", "Bröd", "Kebab", "55");
+  insert_menu_item($con, "Kebabrulle", "Tunnbröd", "Kebab", "65");
+  insert_menu_item($con, "Kebabtallrik", "Pommes frites", "Kebab", "70");
+
 
   //Sallad 70kr st, hembakat bröd, smör och dressing
   insert_menu_item($con, "Räksallad", "Sallad, Tomat, Gurka, Ost, Champinjoner, Räkor, Citron", "Sallad", "70");
@@ -96,11 +100,7 @@ function insert_db_data($con){
   insert_menu_item($con, "Strips (stor)", "", "Grill", "30");
   insert_menu_item($con, "Strips (liten)", "", "Grill", "25");
 
-  //Kebab
-  insert_menu_item($con, "Kebab", "Bröd", "Grill", "55");
-  insert_menu_item($con, "Kebabrulle", "Tunnbröd", "Grill", "65");
-  insert_menu_item($con, "Kebabtallrik", "Pommes frites", "Grill", "70");
-  insert_menu_item($con, "Kyckling", "Bröd", "Grill", "55");
+  /*insert_menu_item($con, "Kyckling", "Bröd", "Grill", "55");
   insert_menu_item($con, "Kycklingrulle", "Tunnbröd", "Grill", "65");
   insert_menu_item($con, "Kycklingtallrik", "Med pommes frites", "Grill", "70");
   insert_menu_item($con, "Falafel", "Med bröd", "Grill", "55");
@@ -111,7 +111,7 @@ function insert_db_data($con){
 
   insert_menu_item($con, "Läsk 33cl", "Cola, Fanta, Sprite", "Dryck", "14");
   insert_menu_item($con, "Läsk 50cl", "Cola, Fanta, Sprite", "Dryck", "16");
-  insert_menu_item($con, "Läsk 1,5L", "Cola, Fanta, Sprite", "Dryck", "25");
+  insert_menu_item($con, "Läsk 1,5L", "Cola, Fanta, Sprite", "Dryck", "25");*/
 
 }
 function insert_admin($con, $username, $password){

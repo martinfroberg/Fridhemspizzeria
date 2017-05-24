@@ -9,7 +9,7 @@ $stmt->close();
 
 $i = 0;
 $menu_order = $menu_items;
-$layoutSettings = array(9, 17, 27, 32, 42, 52, 56, 66, 76);
+$layoutSettings = array(5, 11, 17, 23, 29, 32, 38, 42, 48, 53, 56, 59, 65, 69, 75);
 foreach ($menu_items as $key) {
   $menu_order[$i]['menu_order'] = $i;
   if(in_array($i, $layoutSettings)){
@@ -19,16 +19,22 @@ foreach ($menu_items as $key) {
 }
 
 setLastSide(0);
-
-echo '<div class="menu-container">';
-
+setTitleIdCounter();
 array_walk($menu_order, 'getLayout', $menu_order);
 
+echo '</section></section>';
+echo '<hr class="hr-l">';
 echo '</div>';
 
 function getLayout($b){
   if($b['menu_order'] == 0){
+    echo '<div class="menu-container">';
+    echo '<h1> Meny </h1>';
+    echo '<p>Tomatsås och ost ingår till alla pizzor.</p>';
+    echo '<hr class="hr-l">';
     echo '<section class="menu-box-container">';
+    echo '<div class="menu-title-background"><h3 id="t' . getTitleIdCounter() . '"></h3></div>';
+    echo '<hr class="hr-s">';
     echo '<section class="text-left">';
     getArticle($b);
   } elseif(isset($b['layoutDirection'])){
@@ -47,6 +53,8 @@ function getLayout($b){
 
     switchLastSide();
     echo '<section class="menu-box-container">';
+    echo '<div class="menu-title-background"><h3 id="t' . getTitleIdCounter() . '"></h3></div>';
+    echo '<hr class="hr-s">';
     switch (getLastSide()) {
       case 0:
       echo '<section class="text-left">';
@@ -62,7 +70,22 @@ function getLayout($b){
 }
 
 function getArticle($b){
-  echo '<article><p>' . $b['name'] . '</p></article>';
+  if($b['category'] == "Pizza" || $b['category'] == "Sallad" || $b['price'] == 0){
+    echo '<article><p class="menu-item-name">' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+  } elseif($b['ingredients'] == "") {
+    echo '<article><p class="menu-item-name">' . $b['price'] . ':-  ' . $b['name'] . '</p></article>';
+  } else {
+    echo '<article><p class="menu-item-name">' . $b['price'] . ':-  ' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+  }
+}
+
+function getTitleIdCounter(){
+  $GLOBALS['titleIdCounter']++;
+  return $GLOBALS['titleIdCounter'];
+}
+
+function setTitleIdCounter(){
+  $GLOBALS['titleIdCounter'] = 0;
 }
 
 function getLastSide(){

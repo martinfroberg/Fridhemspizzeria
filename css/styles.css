@@ -56,7 +56,7 @@ body {
     display: inline-block;
     padding: 10px 0;
     overflow: hidden;
-  
+
 }
 
 
@@ -151,16 +151,19 @@ section.news-feed-wrap {
   border: 0.1em solid gainsboro;*/
 }
 
-section.news-feed-wrap .hr-l {
+hr.hr-l {
     margin-left: -2em;
     margin-right: -2em;
     border-color: ghostwhite;
+    margin-bottom: 0.5em;
 }
 
-section.news-feed-wrap .hr-s {
+hr.hr-s {
+  margin-top: -0.4em;
     margin-left: -1em;
     margin-right: -1em;
     border-color: gray;
+    margin-bottom: 0.5em;
 }
 
 section.news-feed-wrap h3,
@@ -170,34 +173,159 @@ p {
 
 .menu-container {
   margin: auto;
-  width: 70%;
+  width: 60%;
+}
+
+.menu-container h1 {
+
+}
+
+.menu-container p {
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .menu-box-container {
   display: table-row;
-  margin: 0;
 }
 
 section.text-left, section.img-left {
-  margin-bottom: 2.5em;
   text-align: left;
   float: left;
 }
 
 section.text-right, section.img-right {
-  margin-bottom: 2.5em;
   text-align: right;
   float: right;
+  margin-right: 0;
 }
 
 section.img-left img, section.img-right img{
-  width: 24em;
+  width: 20em;
   height: auto;
+}
+
+section.text-left, section.text-right {
+  line-height: 1em;
+  max-width: 20em;
+}
+
+section.text-right, section.img-right {
+  margin-left: 14em;
+}
+
+section.text-left p{
+  padding-left: 4em;
+  text-align: left;
+}
+
+section.text-right p{
+  padding-right: 4em;
+  text-align: right;
+}
+
+div.menu-title-background {
+
+}
+
+div.menu-title-background h3 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Meny titlar */
+.menu-container h3#t1:before {
+  content: 'Pizza 65:- Familjepizza 130:-';
+  text-align: right;
+}
+
+.menu-container h3#t2:before {
+  content: 'Pizza 65:-';
+}
+
+.menu-container h3 {
+
+}
+
+.menu-container h3#t3:before {
+  content: 'Pizza 65:-';
+}
+
+.menu-container h3#t4:before {
+  content: 'Pizza 70:- Familjepizza 135:-';
+}
+
+.menu-container h3#t5:before {
+  content: 'Pizza 70:-';
+}
+
+.menu-container h3#t6:before {
+  content: 'Pizza 70:-';
+}
+
+.menu-container h3#t7:before {
+  content: 'Pizza 75:- Familjepizza 150:-';
+}
+
+.menu-container h3#t8:before {
+  content: 'Pizza 75:-';
+}
+
+.menu-container h3#t9:before {
+  content: 'Pizza 80:- Familjepizza 160:-';
+}
+
+.menu-container h3#t10:before {
+  content: 'Pizza 80:-';
+}
+
+.menu-container h3#t11:before {
+  content: 'Pizza 80:-';
+}
+
+.menu-container h3#t12:before {
+  content: 'Kebab';
+}
+
+.menu-container h3#t13:before {
+  content: 'Sallad 70:-';
+}
+
+.menu-container h3#t14:before {
+  content: 'Sallad 70:-';
+}
+
+.menu-container h3#t15:before {
+  content: 'Grill';
+}
+
+.menu-container h3#t16:before {
+  content: 'Grill';
 }
 
 .menu-container article {
   margin-bottom: 0.3em;
   padding: 0;
+}
+
+.menu-box-container h3 {
+  margin-bottom: 1em;
+}
+
+p.menu-item-name, p.menu-item-ingredients {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.menu-item-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.2em;
+}
+
+p.menu-item-ingredients {
+  text-transform: lowercase;
+  margin-bottom: 1.2em;
 }
 
 footer {
@@ -322,4 +450,3 @@ body > .pizzeriafridhem2 {
   color: gainsboro;
   margin-top: 1vh;
 }
-

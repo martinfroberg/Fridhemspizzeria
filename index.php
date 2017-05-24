@@ -2,7 +2,6 @@
 <!-- Body -->
 <section class="news-feed-wrap">
   <hr class="hr-l">
-  <br>
   <h3>Hejsan alla pizza älskare!</h3>
 
   <p>Torsdagen den 18/08-19 kommer vi ha lunchrabatter! 12.00 - 15.00 kommer vi att sälja valfri pizza ifrån menyn med 20% rabatt.
