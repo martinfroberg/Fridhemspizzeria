@@ -13,6 +13,7 @@ body {
   background-repeat: repeat;
   font-size: 1vw;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 /* header modul*/
 
@@ -437,7 +438,6 @@ footer {
   background-color: #d60c1d;
   border-radius: 1em 1em 0 0;
   padding-top: 1em;
-  overflow: hidden;
 }
 
 footer > article p, h2 {
@@ -468,16 +468,38 @@ footer > article.copyright {
   body {
     font-size: 2.5vw;
   }
+
+  /* Nyhetsflöde */
   section.news-feed-wrap {
     width: 95%;
   }
+  /* END Nyhetsflöde */
+
+  /* Meny */
   div.menu-container {
     width: 95%;
+    overflow-x: hidden;
   }
-  .menu-container .img-left img,
-  .menu-container .img-right img {
+  .menu-container .img-left img, .menu-container .img-right img {
     height: auto;
-    width: 10em;
+    width: 12em;
+    padding: 0;
   }
-}
+  section.text-left p, section.text-right p {
+    padding: 0;
+    margin: 0;
+  }
+  section.img-right, section.img-left {
+    padding: 0;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+  section.img-right {
+    margin-left: 5em;
+  }
+  section.img-left {
+    margin: 0;
+  }
+  /*END Meny */
+
 }
