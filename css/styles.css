@@ -146,13 +146,16 @@ p {
   display: table-row;
 }
 
+section.text-left, section.img-right, section.text-right, section.img-left {
+  padding-top: 3.4em;
+  padding-bottom: 2em;
+}
+
 section.text-left, section.img-left {
-  text-align: left;
   float: left;
 }
 
 section.text-right, section.img-right {
-  text-align: right;
   float: right;
 }
 
@@ -177,12 +180,13 @@ section.text-right p{
 }
 
 section.img-right {
-  margin-left: 19em;
+  margin-left: 15em;
+  padding-right: 4em;
 }
 
-section.text-left, section.img-right, section.text-right, section.img-left {
-  padding-top: 3.4em;
-  padding-bottom: 1em;
+section.img-left {
+  margin-right: 15em;
+  padding-left: 4em;
 }
 
 div.menu-title-background {
@@ -395,7 +399,6 @@ p.menu-item-ingredients {
 /* Map end */
 
 /* Om oss */
-
 body > .ombager {
   margin: 0 auto;
   width: 99.5vw;
