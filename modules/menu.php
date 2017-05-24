@@ -9,7 +9,7 @@ $stmt->close();
 
 $i = 0;
 $menu_order = $menu_items;
-$layoutSettings = array(5, 11, 17, 23, 29, 32, 38, 42, 48, 53, 56, 59, 65, 69, 75);
+$layoutSettings = array(6, 13, 17, 24, 32, 37, 42, 48, 53, 56, 59, 64, 69, 74);
 foreach ($menu_items as $key) {
   $menu_order[$i]['menu_order'] = $i;
   if(in_array($i, $layoutSettings)){
@@ -30,7 +30,7 @@ function getLayout($b){
   if($b['menu_order'] == 0){
     echo '<div class="menu-container">';
     echo '<h1> Meny </h1>';
-    echo '<p>Tomatsås och ost ingår till alla pizzor.</p>';
+    echo '<p>Tomatsås och ost ingår till alla pizzor.<br>(Barnpizza 5:- billigare.)</p>';
     echo '<hr class="hr-l">';
     echo '<section class="menu-box-container">';
     echo '<div class="menu-title-background"><h3 id="t' . getTitleIdCounter() . '"></h3></div>';
