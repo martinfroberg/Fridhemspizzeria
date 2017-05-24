@@ -71,11 +71,15 @@ function getLayout($b){
 
 function getArticle($b){
   if($b['category'] == "Pizza" || $b['category'] == "Sallad" || $b['price'] == 0){
-    echo '<article><p class="menu-item-name">' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+    if ($b['category'] == "Pizza"){
+      echo '<article><p class="menu-item-name">' . ($b['menu_order'] + 1) . '. ' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+    } else {
+      echo '<article><p class="menu-item-name">' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+    }
   } elseif($b['ingredients'] == "") {
-    echo '<article><p class="menu-item-name">' . $b['price'] . ':-  ' . $b['name'] . '</p></article>';
+    echo '<article><p class="menu-item-name">' . $b['name'] . ' ' . $b['price'] . ':-</p></article>';
   } else {
-    echo '<article><p class="menu-item-name">' . $b['price'] . ':-  ' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+    echo '<article><p class="menu-item-name">' . $b['name'] . ' ' . $b['price'] . ':-</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
   }
 }
 

@@ -87,9 +87,9 @@ function insert_db_data($con){
   insert_menu_item($con, "Kebabsallad", "Sallad, Tomat, Gurka, Kebabkött, Peperoni, Lök", "Sallad", "70");
 
   //Grill
-  insert_menu_item($con, "Hamburgare 90g", "Med Bröd 40kr. Med Pommes 50kr. Mos/Tallrik 60kr", "Grill", "");
-  insert_menu_item($con, "Hamburgare 150g", "Med Bröd 50kr. Med Pommes 60kr. Mos/Tallrik 65kr", "Grill", "");
-  insert_menu_item($con, "Ostburgare 150g", "Med Bröd 50kr.", "Grill", "");
+  insert_menu_item($con, "Hamburgare 90g", "Med Bröd 40:-. Med Pommes 50:-. Mos/Tallrik 60:-", "Grill", "");
+  insert_menu_item($con, "Hamburgare 150g", "Med Bröd 50:-. Med Pommes 60:-. Mos/Tallrik 65:-", "Grill", "");
+  insert_menu_item($con, "Ostburgare 150g", "Med Bröd 50:-.", "Grill", "");
   insert_menu_item($con, "Big Meal 90g", "Bröd, Sallad, Lök, Gurka, Tomater, Strips, Dryck", "Grill", "60");
   insert_menu_item($con, "Super Meal 150g", "Bröd, Sallad, Lök, Gurka, Tomater, Dressing, Strips, Dryck", "Grill", "70");
   insert_menu_item($con, "Schnitzel", "Sallad, Lök, Paprika, Tomater, Persiljesmör, Strips", "Grill", "70");
