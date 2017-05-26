@@ -7,27 +7,18 @@ while ($data = $result->fetch_assoc()){
 }
 $stmt->close();
 
-$i = 0;
-$menu_order = $menu_items;
-$layoutSettings = array(6, 13, 17, 24, 32, 37, 42, 48, 53, 56, 59, 64, 69, 74);
-foreach ($menu_items as $key) {
-  $menu_order[$i]['menu_order'] = $i;
-  if(in_array($i, $layoutSettings)){
-    $menu_order[$i]['layoutDirection'] = 1;
-  }
-  $i++;
-}
+//$layoutSettings = array(6, 13, 17, 24, 32, 37, 42, 48, 53, 56, 59, 64, 69, 74);
 
 setLastSide(0);
 setTitleIdCounter();
-array_walk($menu_order, 'getLayout', $menu_order);
+array_walk($menu_items, 'getLayout', $menu_items);
 
 echo '</section></section>';
 echo '<hr class="hr-l">';
 echo '</div>';
 
 function getLayout($b){
-  if($b['menu_order'] == 0){
+  if($b['order'] == 1){
     echo '<div class="menu-container">';
     echo '<h1> Meny </h1>';
     echo '<p>Tomatsås och ost ingår till alla pizzor.<br>(Barnpizza 5:- billigare.)</p>';
@@ -37,7 +28,7 @@ function getLayout($b){
     echo '<hr class="hr-s">';
     echo '<section class="text-left">';
     getArticle($b);
-  } elseif(isset($b['layoutDirection'])){
+  } elseif($b['direction'] == 1){
     getArticle($b);
     echo '</section>';
     switch (getLastSide()) {
@@ -72,7 +63,7 @@ function getLayout($b){
 function getArticle($b){
   if($b['category'] == "Pizza" || $b['category'] == "Sallad" || $b['price'] == 0){
     if ($b['category'] == "Pizza"){
-      echo '<article><p class="menu-item-name">' . ($b['menu_order'] + 1) . '. ' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
+      echo '<article><p class="menu-item-name">' . $b['order'] . '. ' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
     } else {
       echo '<article><p class="menu-item-name">' . $b['name'] . '</p><p class="menu-item-ingredients">(' . $b['ingredients'] . ')</p></article>';
     }

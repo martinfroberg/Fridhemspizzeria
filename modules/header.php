@@ -1,5 +1,5 @@
 <?php
-include('core/database/connection.php');
+require_once 'core/database/connection.php';
 $con = Database::getConnection(); ?>
 
 <!doctype html>
@@ -22,8 +22,17 @@ $con = Database::getConnection(); ?>
   <script src="js/html5shiv.js"></script>
   <![endif]-->
   <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+  <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
+  <?php
+  if(session_status() == PHP_SESSION_NONE){
+    session_start();
+    if(isset($_SESSION['user_id'])) {
+      include 'admin/adminui.php';
+    }
+  } ?>
+
   <header>
     <a href="index.php">
       <h3>PIZZERIA</h3>

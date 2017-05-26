@@ -48,10 +48,12 @@ class Database {
       mysqli_query($this->connection,
       "CREATE TABLE `menu`
       ( `id` INT NOT NULL AUTO_INCREMENT ,
+        `order` INT NOT NULL ,
         `name` TEXT NOT NULL ,
         `ingredients` TEXT ,
         `category` TEXT NOT NULL ,
         `price` INT ,
+        `direction` INT NOT NULL ,
         PRIMARY KEY (`id`))");
 
       //Get db entries

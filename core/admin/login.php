@@ -12,7 +12,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
   while ($stmt->fetch()){}
 
   if (!isset($user_id)) {
-    header('Location: ../../admin.php?incorrect');
+    header('Location: ../../admin.php');
   } else {
     //User found
     $password = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
@@ -23,10 +23,10 @@ if(isset($_POST['username']) && isset($_POST['password'])){
       session_start();
       $_SESSION['user_id'] = $user_id;
 
-      header('Location: ../../adminedit.php?correct');
+      header('Location: ../../index.php');
     } else {
       //Incorrect password
-      header('Location: ../../admin.php?incorrectP');
+      header('Location: ../../admin.php');
     }
   }
   $stmt->close();
