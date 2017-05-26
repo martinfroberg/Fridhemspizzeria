@@ -36,9 +36,6 @@
          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-hvHiQl9w-Bqs_EdXHjDSHVbKm9nLGRg&callback=initMap">
         </script>
     <article class="pizzeriafridhem2" >
-
       <h2>Välkommen till Pizzeria Fridhem</h2>
-
-
     </article>
 <?php include 'modules/footer.php'; ?>
