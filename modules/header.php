@@ -49,7 +49,7 @@ $con = Database::getConnection(); ?>
         <li><div><a href="#">Galleri</a></div></li>
         <li><div><a href="#">Fridhemsspelet</a></div></li>
         <li><div><a href="#">Beställa</a></div></li>
-        <li><div><a href="#">Om oss</a></div></li>
+        <li><div><a href="about.php">Om oss</a></div></li>
       </ul>
     </nav>
   </header>
