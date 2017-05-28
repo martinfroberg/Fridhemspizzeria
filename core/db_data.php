@@ -2,8 +2,6 @@
 function insert_db_data($con){
   insert_admin($con, "admin", "admin");
 
-  //$layoutSettings = array(6, 13, 17, 24, 32, 37, 42, 48, 53, 56, 59, 64, 69, 74);
-
   //65kr pizzor (ost och tomat i varje) 130kr familje pizza
   insert_menu_item($con, 1, "Margareta", "Ost", "Pizza", "65", 0);
   insert_menu_item($con, 2, "Capriciosa", "Skinka, Champinjoner", "Pizza", "65", 0);
@@ -101,19 +99,6 @@ function insert_db_data($con){
   insert_menu_item($con, 80, "Rödspätta", "Klyftpotatis, Remouladsås, Sallad, Lök, Tomater", "Grill", "75", 0);
   insert_menu_item($con, 81, "Strips (stor)", "", "Grill", "30", 0);
   insert_menu_item($con, 82, "Strips (liten)", "", "Grill", "25", 0);
-
-  /*insert_menu_item($con, "Kyckling", "Bröd", "Grill", "55");
-  insert_menu_item($con, "Kycklingrulle", "Tunnbröd", "Grill", "65");
-  insert_menu_item($con, "Kycklingtallrik", "Med pommes frites", "Grill", "70");
-  insert_menu_item($con, "Falafel", "Med bröd", "Grill", "55");
-  insert_menu_item($con, "Falafelrulle", "Med tunnbröd", "Grill", "65");
-  insert_menu_item($con, "Falafeltallrik", "Med pommes frites", "Grill", "70");
-
-  insert_menu_item($con, "Pasta", "Kyckling eller Fläskfilé", "Pasta", "80");
-
-  insert_menu_item($con, "Läsk 33cl", "Cola, Fanta, Sprite", "Dryck", "14");
-  insert_menu_item($con, "Läsk 50cl", "Cola, Fanta, Sprite", "Dryck", "16");
-  insert_menu_item($con, "Läsk 1,5L", "Cola, Fanta, Sprite", "Dryck", "25");*/
 
 }
 function insert_admin($con, $username, $password){

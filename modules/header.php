@@ -45,11 +45,10 @@ $con = Database::getConnection(); ?>
 
     <nav>
       <ul>
-        <li><div><a href="menu.php">Meny</a></div></li>
-        <li><div><a href="#">Evenemang</a></div></li>
+        <li><div><a href="index.php">Meny</a></div></li>
+        <li><div><a href="events.php">Evenemang</a></div></li>
         <li><div><a href="gallery.php">Galleri</a></div></li>
-        <li><div><a href="#">Fridhemsspelet</a></div></li>
-        <li><div><a href="#">Beställa</a></div></li>
+        <li><div><a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu">Beställa</a></div></li>
         <li><div><a href="about.php">Om oss</a></div></li>
       </ul>
     </nav>
