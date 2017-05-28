@@ -17,9 +17,10 @@
       Sed malesuada purus molestie, viverra libero et, condimentum est. Mauris mi diam, accumsan in varius quis, dapibus eget magna. Proin molestie, ligula sed imperdiet bibendum, enim libero accumsan turpis, id pharetra justo nibh vel orci.
       Cras vel consectetur nibh. Proin vehicula elit dolor, in.</p>
     </article>
-    <img src="images/bagersersap1.jpeg" alt="" />
-    <p style="text-align:right;">Bager seraps</p>
-    <p style="text-align:right;">Ägare av Pizzeria Fridhem.</p>
+    <section class="about-img-container">
+      <img src="images/bagersersap1.jpeg" alt="" />
+      <p><br>Bager Sersap<br>Ägare av Pizzeria Fridhem.</p>
+    </section>
   </section>
   <section class="gmap-container">
     <h3>Hitta Oss</h3>

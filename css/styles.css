@@ -475,7 +475,17 @@ section.about-info-container img {
 section.gmap-container {
   width: 50%;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 35em;
+}
+
+section.about-img-container {
+  float: right;
+  text-align: center;
+  margin-left: 1em;
+}
+
+section.about-img-container p {
+
 }
 /* End om oss */
 
@@ -548,5 +558,36 @@ footer > article.copyright {
     margin: 0;
   }
   /*END Meny */
+
+  /* Om oss */
+  section.about-info-container {
+    overflow-x: hidden;
+    width: 95%;
+  }
+
+  section.about-info-container article {
+    text-align: center;
+    margin-left: 6em;
+  }
+
+  section.about-img-container {
+    float: left;
+    margin-left: 7.7em;
+  }
+
+  section.gmap-container {
+    width: 95%;
+    margin-top: 3em;
+  }
+
+  section.gmap-container h3 {
+    text-align: left;
+    margin-left: 7em;
+  }
+
+  #map {
+    width: 100%;
+    height: 10em;
+  }
 
 }
