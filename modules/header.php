@@ -49,7 +49,7 @@ $con = Database::getConnection(); ?>
         <li><div><a href="menu.php">Meny</a></div></li>
         <li><div><a href="events.php">Evenemang</a></div></li>
         <li><div><a href="gallery.php">Galleri</a></div></li>
-        <li><div><a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu">Beställa</a></div></li>
+        <li><div><a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu" target="_blank">Beställa</a></div></li>
         <li><div><a href="about.php">Om oss</a></div></li>
       </ul>
     </nav>
