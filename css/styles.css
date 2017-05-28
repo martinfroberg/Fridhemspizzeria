@@ -148,6 +148,7 @@ p {
 section.text-left, section.img-right, section.text-right, section.img-left {
   padding-top: 3.4em;
   padding-bottom: 2em;
+  width: 20em;
 }
 
 section.text-left, section.img-left {
@@ -165,7 +166,6 @@ section.img-left img, section.img-right img{
 
 section.text-left, section.text-right {
   line-height: 1em;
-  max-width: 20em;
 }
 
 section.text-left p{

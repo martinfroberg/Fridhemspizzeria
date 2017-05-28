@@ -30,6 +30,7 @@ function getLayout($b){
     getArticle($b);
   } elseif($b['direction'] == 1){
     getArticle($b);
+    //images
     echo '</section>';
     switch (getLastSide()) {
       case 0:
@@ -40,7 +41,7 @@ function getLayout($b){
       echo '<section class="img-left">';
       break;
     }
-    echo '<img src="http://www.questdisposal.ca/wp-content/uploads/2015/02/img-temp.jpg"></section></section>';
+    echo '</section></section>';
 
     switchLastSide();
     echo '<section class="menu-box-container">';
