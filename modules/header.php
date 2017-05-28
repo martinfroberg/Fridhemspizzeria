@@ -45,7 +45,8 @@ $con = Database::getConnection(); ?>
 
     <nav>
       <ul>
-        <li><div><a href="index.php">Meny</a></div></li>
+        <li><div><a href="index.php">Hem</a></div></li>
+        <li><div><a href="menu.php">Meny</a></div></li>
         <li><div><a href="events.php">Evenemang</a></div></li>
         <li><div><a href="gallery.php">Galleri</a></div></li>
         <li><div><a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu">Beställa</a></div></li>

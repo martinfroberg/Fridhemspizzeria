@@ -36,7 +36,6 @@ $(document).ready(function() {
         $('#admin-modal-container').load('modules/admin/modals/times-modal-content.php');
         break;
     }
-
   });
 
   window.onclick = function(e) {

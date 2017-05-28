@@ -179,12 +179,12 @@ section.text-right p{
 }
 
 section.img-right {
-  margin-left: 15em;
+  margin-left: 14em;
   padding-right: 4em;
 }
 
 section.img-left {
-  margin-right: 15em;
+  margin-right: 14em;
   padding-left: 4em;
 }
 
@@ -446,49 +446,38 @@ section.admin-edit-menu-order-container {
 
 /* Map */
 #map {
-  z-index: 10;
-  width: 37vw;
-  height: 28vh;
-  margin: 0 auto;
-  margin-top: 2vh;
-  border-radius: 2.5%;
+  width: 50em;
+  height: 25em;
+  margin: auto;
+  border-radius: 0.5em;
+  margin-top: 2em;
 }
 /* Map end */
 
 /* Om oss */
-body > .ombager {
-  margin: 0 auto;
-  width: 99.5vw;
-  text-align: center;
-  color: gainsboro;
+section.about-info-container {
+  width: 50%;
+  margin: auto;
 }
 
-body > .ombager > .bager1 {
-  width: 35vh;
-  border-radius: 5%;
-  margin: 0 auto;
+section.about-info-container article {
+  float: left;
+  width: 25em;
 }
 
-body > .pizzeriafridhem {
-  width: 60vw;
-  margin: 0 auto;
-  margin-top: 2vh;
+section.about-info-container img {
+  border-radius: 0.5em;
+  margin-top: 4.5em;
+  max-width: 23em;
+  float: right;
 }
 
-body > .pizzeriafridhem h2 {
-  margin-top: 4vh;
-  margin-bottom: 1.5vh;
-  color: gainsboro;
-}
-
-body > .pizzeriafridhem2 {
-  text-align: center;
-  color: gainsboro;
-  margin-top: 1vh;
+section.gmap-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 5em;
 }
 /* End om oss */
-
-
 
 /*Footer */
 footer {

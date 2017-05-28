@@ -1,5 +1,5 @@
 <?php include 'modules/header.php'; ?>
 
-<img style="max-width:100%" src="http://happyhoursschool.org/construction.jpg" alt="">
+<img style="display:block;margin:0 auto;" src="http://successsealing.com/images/uc2.png" alt="">
 
 <?php include 'modules/footer.php'; ?>
