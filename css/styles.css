@@ -43,7 +43,7 @@ header > a h1 {
 }
 
 header > .h-img-wrap {
-  background-image: url("https://deepdisheats.files.wordpress.com/2010/12/dufonos.jpg");
+  background-image: url("https://i.ytimg.com/vi/RoBHW_I70xM/maxresdefault.jpg");
   background-size: cover;
   width: 100%;
   height: 22em;
@@ -292,7 +292,7 @@ div.admin-ui-container {
   top: 0;
   width: 10em;
   height: 100%;
-  background-color: blue;
+  background-color: #d60c1d;
 }
 /* End admin ui */
 
