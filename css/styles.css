@@ -477,11 +477,11 @@ footer > article.copyright p {
     height: 33%;
   }
   section.intro-text-container, section.newsfeed-container, div.menu-container, section.about-info-container {
-    width: 80%;
+    width: 60%;
   }
 
   footer > section.info-container {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -497,11 +497,11 @@ footer > article.copyright p {
     width: auto;
   }
   section.intro-text-container, section.newsfeed-container, div.menu-container, section.about-info-container {
-    width: 70%;
+    width: 50%;
   }
 
   footer > section.info-container {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -514,10 +514,10 @@ footer > article.copyright p {
     width: auto;
   }
   section.intro-text-container, section.newsfeed-container, div.menu-container, section.about-info-container {
-    width: 50%;
+    width: 35%;
   }
 
   footer > section.info-container {
-    width: 30%;
+    width: 20%;
   }
 }
