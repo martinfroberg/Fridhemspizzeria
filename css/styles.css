@@ -303,9 +303,43 @@ div.admin-ui-container {
   position: fixed;
   left: 0;
   top: 0;
-  width: 10em;
+  width: 10%;
   height: 100%;
-  background-color: #d60c1d;
+  background-color: darkblue;
+}
+
+div.admin-ui-container p {
+  padding-left: 0.5em;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+div.admin-ui-container ul {
+  margin-top: 5em;
+  list-style: none;
+  margin-left: -0.1em;
+}
+
+div.admin-ui-container li a {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  color: gainsboro;
+  text-decoration: none;
+}
+
+div.admin-ui-container li a:hover {
+  text-decoration: underline;
+}
+
+div.admin-ui-container form button {
+  border: 0.1em solid black;
+  margin-top: 0.5em;
+  margin-left: 0.6em;
+  font-size: 1em;
+  padding: 0.3em;
+}
+div.admin-ui-container form button:hover {
+  border-color: darkred;
 }
 /* End admin ui */
 
@@ -357,103 +391,29 @@ section.admin-edit-menu-order-container {
 }
 /* END Admin edit */
 
-.mainback {
-  width: 100%;
-  overflow: auto;
-  height: 100%;
-}
-
-.pannel {
-  position: fixed;
-  width: 11em;
-  background-color: #595959;
-  height: 100%;
-  border-radius: 1em 1em 0 0;
-}
-
-.mainpage {
-  float: right;
-  width: 100%;
-}
-
-.mainback .pannel .menypannel ul {
-  width: 100%;
-  text-align: center;
-  margin-top: 5em;
-  padding-left: 0;
-  margin-left: -0.5em;
-  font-size: 1.5em;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.mainback .pannel .menypannel ul li {
-  margin: 0.5em 0;
-}
-
-.mainback .pannel .menypannel ul li a {
-  text-decoration: none;
-  color: white;
-  position: relative;
-  display: inline-block;
-  padding: 0.5em 0;
-  overflow: hidden;
-}
-
-.mainback .pannel .menypannel ul li a:hover {
-  background: #404040;
-  border-radius: 0.2em;
-}
-/*admin edit end*/
 /*adminloginpage*/
-
-.boxlog {
+form.admin-login-form {
   text-align: center;
-  border: 0.1em solid transparent;
-  border-radius: 0.1em;
-  font-size: 1.2em;
-  font-weight: 200;
-  padding: 0.5em 0;
-  width: 15em;
-  transition: border .5s;
   margin: auto;
-  margin-top: 20%;
+}
+
+form.admin-login-form input {
+  border-radius: 0.2em;
+  padding: 0.3em;
   border-color: black;
-  margin-left:
+  margin-bottom: 0.2em;
 }
 
-.boxlog:focus {
-  border: 0.1em solid #3498DB;
-  box-shadow: none;
-}
-
-.btn {
-  text-align: center;
-  background-color: #ECF0F1;
-  border: 0.1em solid transparent;
-  border-radius: 0.1em;
-  font-size: 1.2em;
-  padding: 0.5em 0;
-  width: 12em;
-  transition: border 0.2s;
+form.admin-login-form button {
+  background-color: white;
+  border-radius: 0.2em;
+  padding: 0.2em;
   border-color: black;
+  margin-left: -10em;
 }
 
-.btn:hover {
-  border: 0.1em solid #3498DB;
-  box-shadow: none;
-}
-
-.holder {
-  text-align: center;
-}
-
-.loginheader {
-  text-align: center;
-}
-
-.loginheader > h1 {
-  color: white;
-  padding-top: 3%;
+form.admin-login-form button:hover {
+  border-color: darkred;
 }
 /* adminlogin end*/
 

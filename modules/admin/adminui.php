@@ -1,14 +1,14 @@
 <div class="admin-ui-container">
-  <h1>Logged in as Admin</h1>
-  <form action="core/admin/logout.php" method="post">
-    <button type="submit">Logout</button>
-  </form>
+  <p>Inloggad som Admin</p>
   <ul>
     <li><a id="edit-menu" class="admin-load-modal" href="#">Meny</a></li>
     <li><a id="edit-news" class="admin-load-modal" href="#">Nyheter</a></li>
     <li><a id="edit-gallery" class="admin-load-modal" href="#">Galleri</a></li>
     <li><a id="edit-times" class="admin-load-modal" href="#">Öppettider</a></li>
   </ul>
+  <form action="core/admin/logout.php" method="post">
+    <button type="submit">Logga ut</button>
+  </form>
 
   <!-- The Modal -->
   <div id="admin-modal-container">
