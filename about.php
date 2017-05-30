@@ -26,7 +26,7 @@
     <h3>Hitta Oss</h3>
     <hr class="hr-s">
     <div id="map"></div>
-    <hr style="margin-top:2em;" class="hr-l">
+    <hr style="margin-top:0.5em;" class="hr-l">
   </section>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-hvHiQl9w-Bqs_EdXHjDSHVbKm9nLGRg&callback=initMap"></script>
   <?php include 'modules/footer.php'; ?>

@@ -41,7 +41,7 @@ $con = Database::getConnection(); ?>
         <p>FRIDHEM</p>
       </section>
     </a>
-    <div class="h-img-wrap">
+    <div class="header-img-container">
       <a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu" target="_blank"><img src="images/onlinepizza.jpeg" title="Beställ från Pizzeria Fridhem" alt=""></a>
     </div>
 

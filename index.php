@@ -13,8 +13,8 @@
   <p>Lördag 12.00-22.00</p>
   <p>Söndag 12.00-21.00</p>
 </section>
-
-<section class="news-feed-wrap">
+<br>
+<section class="newsfeed-container">
   <h1>Nyhetsflöde</h1>
   <hr class="hr-l">
   <h3>Hejsan alla pizza älskare!</h3>
