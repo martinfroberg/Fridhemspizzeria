@@ -35,8 +35,11 @@ $con = Database::getConnection(); ?>
     } ?>
   <header>
     <a href="index.php">
-      <h3>PIZZERIA</h3>
-      <h1>FRIDHEM</h1>
+      <section class="header-logo-container">
+        <p>PIZZERIA</p>
+        <hr>
+        <p>FRIDHEM</p>
+      </section>
     </a>
     <div class="h-img-wrap">
       <a href="https://onlinepizza.se/karlshamn/pizzeria-fridhem/#menu" target="_blank"><img src="images/onlinepizza.jpeg" title="Beställ från Pizzeria Fridhem" alt=""></a>

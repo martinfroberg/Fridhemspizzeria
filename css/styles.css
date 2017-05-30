@@ -12,7 +12,9 @@ body {
   background-image: url('../images/background1.jpeg');
   background-repeat: repeat;
   font-size: 12px;
+  /*font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif;*/
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /*font-family: "Times New Roman", "Times", "serif";*/
   overflow-x: hidden;
 }
 /* header modul*/
@@ -26,20 +28,24 @@ header > a {
   text-decoration: none;
 }
 
-header > a h3, h1 {
+header > a section.header-logo-container {
   text-align: center;
-  text-decoration: none;
-  font-family: "Times New Roman", "Times", "serif";
+  font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif;
   color: gainsboro;
+  align-self: center;
+  line-height: 3.4em;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
 }
 
-header > a h3 {
-  letter-spacing: 1em;
-}
-
-header > a h1 {
-  letter-spacing: 0.1em;
+header > a section.header-logo-container p {
   font-size: 4em;
+  font-weight: 100;
+}
+
+header > a section.header-logo-container hr {
+  width: 18.5em;
+  margin: 0 auto;
 }
 
 header > .h-img-wrap {
@@ -133,6 +139,7 @@ p {
 
 .menu-container h1 {
   font-weight: bolder;
+  text-align: center;
 }
 
 .menu-container p {
