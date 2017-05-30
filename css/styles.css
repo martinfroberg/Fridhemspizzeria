@@ -11,7 +11,7 @@ body {
   /*background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");*/
   background-image: url('../images/background1.jpeg');
   background-repeat: repeat;
-  font-size: 1vw;
+  font-size: 12px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   overflow-x: hidden;
 }
@@ -148,7 +148,8 @@ p {
 section.text-left, section.img-right, section.text-right, section.img-left {
   padding-top: 3.4em;
   padding-bottom: 2em;
-  width: 20em;
+  width: 25.5em;
+  margin: 0;
 }
 
 section.text-left, section.img-left {
@@ -179,12 +180,12 @@ section.text-right p{
 }
 
 section.img-right {
-  margin-left: 14em;
+  margin-left: 25.5em;
   padding-right: 4em;
 }
 
 section.img-left {
-  margin-right: 14em;
+  margin-right: 25.5em;
   padding-left: 4em;
 }
 

@@ -1,4 +1,7 @@
 <?php
+if(session_status() == PHP_SESSION_NONE){
+  session_start();
+}
 require_once 'core/database/connection.php';
 $con = Database::getConnection(); ?>
 
@@ -27,13 +30,9 @@ $con = Database::getConnection(); ?>
 </head>
 <body>
   <?php
-  if(session_status() == PHP_SESSION_NONE){
-    session_start();
     if(isset($_SESSION['user_id'])) {
       include 'admin/adminui.php';
-    }
-  } ?>
-
+    } ?>
   <header>
     <a href="index.php">
       <h3>PIZZERIA</h3>
