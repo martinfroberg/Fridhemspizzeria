@@ -1,6 +1,21 @@
 <?php include 'modules/header.php'; ?>
-<!-- Body -->
+<section class="intro-text-container">
+  <h3>Välkommna till Pizzeria Fridhem</h3>
+  <hr class="hr-l">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <br>
+  <br>
+  <h3>Öppettider</h3>
+  <hr class="hr-s">
+  <br>
+  <p>Mån - Tors 11.00-21.00</p>
+  <p>Fredag 11.00-22.00</p>
+  <p>Lördag 12.00-22.00</p>
+  <p>Söndag 12.00-21.00</p>
+</section>
+
 <section class="news-feed-wrap">
+  <h1>Nyhetsflöde</h1>
   <hr class="hr-l">
   <h3>Hejsan alla pizza älskare!</h3>
 

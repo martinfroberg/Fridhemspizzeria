@@ -21,8 +21,12 @@ function getLayout($b){
   if($b['order'] == 1){
     echo '<div class="menu-container">';
     echo '<h1> Meny </h1>';
-    echo '<p>Tomatsås och ost ingår till alla pizzor.<br>(Barnpizza 5:- billigare.)</p>';
     echo '<hr class="hr-l">';
+    echo '<p>Luncherbjudande<br>';
+    echo 'Vardagar 11.00 - 15.00<br>';
+    echo 'Pizza nr. 1-31, Kebab, Sallad, Grill. Inkl. dryck (33cl), sallad och kaffe<br>';
+    echo '<h1 style="margin-top:-0.5em;">69:-</h1></p><br><br>';
+    echo '<p>Tomatsås och ost ingår till alla pizzor.<br>(Barnpizza 5:- billigare)</p><br>';
     echo '<section class="menu-box-container">';
     echo '<div class="menu-title-background"><h3 id="t' . getTitleIdCounter() . '"></h3></div>';
     echo '<hr class="hr-s">';
